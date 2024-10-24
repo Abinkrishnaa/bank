@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-photo/flat-abstract-bank-building-coins-with-financial-stability-text-concept-as-sleek-vector-illust_980716-692484.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.link-btn {
+    background: none;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-group button {
+    flex: 1;
+    margin: 5px;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: green;
+}
+
+#login-container {
+    display: block;
+}
